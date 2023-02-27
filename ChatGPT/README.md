@@ -1,6 +1,6 @@
 I used ChatGPT a decent amount for this lab. 
 
-For exercise 2, I threw a lot of queries at ChatGPT. I found that it got better and better as I made my queries more and more specific, but I inevitably flew too close to the sun, and it started getting thrown off track, using `verilated`, etc. There was definitely a huge amount in the output that I had to ignore, but for this kind of thing, I find it more convenient. That is, I want to use my brainpower making important decisions like how I can do testing in an efficient way instead of building the code from the ground up. It gives me a general outline, so I can just make quick alterations and tweaks, and it's easier for me.
+For exercise 2, I threw a lot of queries at ChatGPT. I found that it got better and better as I made my queries more and more specific, but I inevitably flew too close to the sun, and it started getting thrown off track, using `verilated`, etc. There was definitely a huge amount in the output that I had to ignore, but for this kind of thing, I still find this more convenient. That is, I want to use my brainpower making important decisions like how I can do testing in an efficient way instead of building the code from the ground up. It gives me a general outline, so I can just make quick alterations and tweaks, and it's easier for me.
 
 This prompt gave me the best response:
 ```
