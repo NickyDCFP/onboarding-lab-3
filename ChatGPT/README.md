@@ -1,6 +1,6 @@
 I used ChatGPT a decent amount for this lab. 
 
-For exercise 2, I threw a lot of queries at ChatGPT. I found that it got better and better as I made my queries more and more specific, but I inevitably flew too close to the sun, and it started getting thrown off track, using `verilated`, etc.
+For exercise 2, I threw a lot of queries at ChatGPT. I found that it got better and better as I made my queries more and more specific, but I inevitably flew too close to the sun, and it started getting thrown off track, using `verilated`, etc. There was definitely a decent amount in the output that I had to ignore, but for this kind of thing, I find it more convenient. That is, I want to use my brainpower making important decisions like how I can do testing in an efficient way instead of building the code from the ground up. This way, I can just make quick alterations and tweaks, and it's easier for me.
 This prompt gave me the best response:
 ```
 Write a C++ test bench that uses catch2/catch_test_macros.hpp to test a verilog module named Exercise2 from a header named
@@ -28,4 +28,4 @@ case called "Exercise2 module test" that will test the module. In this test case
 the reset signal asserted to ensure that the LFSR is properly reset. We then test a variety of inputs by generating a random input.
 ```
 
-Overall, I was really surprised that ChatGPT was able to use all of that information so well, and that test bench proved extremely helpful in getting the exercise done. I'm not sure if it'd be so helpful with writing SV, just since there's not as much code available, but I think it'd still be somewhat helpful.
+Overall, I was really surprised that ChatGPT was able to use all of that information so well, and that test bench proved extremely helpful in getting the exercise done. I'm not sure if it'd be so helpful with writing SV, just since there's not as much code available, but I think it'd still be somewhat helpful. 
