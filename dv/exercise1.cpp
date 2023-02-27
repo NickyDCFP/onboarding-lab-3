@@ -11,8 +11,6 @@ void test_op(uint8_t code, uint8_t(op)(uint8_t, uint8_t)) {
 
   do {
     do {
-      if(!model.b && model.op == 2)
-        continue;
       model.eval();
       uint8_t result {op(model.a, model.b)};
       REQUIRE(result == model.out);
@@ -26,11 +24,11 @@ TEST_CASE("Opcode 0, XOR") {
 
 TEST_CASE("Opcode 1, Left Shift") {
   test_op(1,
-      [](uint8_t a, uint8_t b) -> uint8_t { return (b >= 8) ? 0 : a << b; });
+      [](uint8_t a, uint8_t b) -> uint8_t { return ((b >= 8) ? 0 : a << b); });
 }
 
 TEST_CASE("Opcode 2, Mod") {
-  test_op(2, [](uint8_t a, uint8_t b) -> uint8_t { return a % b; });
+  test_op(2, [](uint8_t a, uint8_t b) -> uint8_t { return (b ? a % b : 0); });
 }
 
 TEST_CASE("Opcode 3, NAND") {
