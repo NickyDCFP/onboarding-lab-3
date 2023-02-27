@@ -27,3 +27,5 @@ In this test bench, we include the header file "VExercise2.h" that contains the 
 case called "Exercise2 module test" that will test the module. In this test case, we first cycle the clock signal a few times with
 the reset signal asserted to ensure that the LFSR is properly reset. We then test a variety of inputs by generating a random input.
 ```
+
+Overall, I was really surprised that ChatGPT was able to use all of that information so well, and that test bench proved extremely helpful in getting the exercise done. I'm not sure if it'd be so helpful with writing SV, just since the libraries are much more scarce, but I think it'd still be somewhat helpful.
