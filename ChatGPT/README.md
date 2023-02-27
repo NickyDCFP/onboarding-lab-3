@@ -29,4 +29,4 @@ case called "Exercise2 module test" that will test the module. In this test case
 the reset signal asserted to ensure that the LFSR is properly reset. We then test a variety of inputs by generating a random input.
 ```
 
-Overall, I was really surprised that ChatGPT was able to use all of that information so well, and that test bench proved extremely helpful in getting the exercise done. I'm not sure if it'd be so helpful with writing SV, just since there's not as much code available, but I think it'd still be somewhat helpful. I also found it pretty hilarious that it used `0xACE1` for a state variable, since that was pulled straight from the Wikipedia page for LFSRs. 
+Overall, I was really surprised that ChatGPT was able to absorb all of the information, and that test bench proved decently helpful in getting the exercise done. I'm not sure if it'd be so helpful with writing SV, just since there's not as much code available, but I think it'd still be somewhat helpful. I also found it pretty hilarious that it used `0xACE1` for a state variable, since that was pulled straight from the Wikipedia page for LFSRs. 
